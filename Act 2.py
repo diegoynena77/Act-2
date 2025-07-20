@@ -1,11 +1,11 @@
 class Persona:
     #Una clase es como un "molde" o un "plano" para crear objetos. En este caso, el molde es para crear objetos de tipo "Persona"
-    def __init__(self, nombre, edad, peso, estatura):
+    def __init__(self, nombre, edad, peso, estatura)
         self.nombre = nombre
         self.edad = edad
         self.peso = peso  # en kilogramos
         self.estatura = estatura  # en metros
-    #Este es el constructor de la clase. Se ejecuta automáticamente cada vez que creas un nuevo objeto Persona.
+    #Este es el constructor de la clase. Se ejecuta automáticamente cada vez que creas un nuevo objeto Persona. modificacion
     #self es una referencia al objeto que se está creando
     #nombre, edad, peso, estatura son los parámetros que debes pasar cuando creas una persona, Dentro de este método, se asignan esos valores a atributos del objeto
     def calcular_imc(self):
