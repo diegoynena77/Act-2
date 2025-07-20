@@ -30,7 +30,7 @@ class Persona:
         else:
             print("→ Obesidad")
 
-    #Mostrar un resumen de la información de todas las personas registradas.
+    #Mostrar un resumen de la información de todas las personas registradas. cambios
 def main():
     print("👤 Registro de personas e IMC")
     personas = []
